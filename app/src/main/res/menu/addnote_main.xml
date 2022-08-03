@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/overflowMenu"
+        android:title="menu"
+        app:showAsAction="always"
+        android:icon="@drawable/menu">
+        <menu>
+            <item
+                android:icon="@drawable/star_2_30x30"
+                android:id="@+id/Addtofavorite_menu"
+                android:orderInCategory="100"
+                android:title="Add to Favorite"
+                app:showAsAction="never"
+
+                />
+            <item
+                android:icon="@drawable/arcamera30x30"
+                android:id="@+id/addimage_camera"
+                android:orderInCategory="100"
+                android:title="Add Image Camera"
+                app:showAsAction="never"
+                />
+            <item
+                android:icon="@drawable/imagegallery_1_30x30"
+                android:id="@+id/addimage_gallary"
+                android:orderInCategory="100"
+                android:title="Add Image Gallery"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/change_color"
+                android:orderInCategory="100"
+                android:title="Change Color"
+                app:showAsAction="never"
+                android:icon="@drawable/change_1_30x30"/>
+
+            <item
+                android:icon="@drawable/text_1_30x30"
+                android:id="@+id/sizeoftitleandnote"
+                android:orderInCategory="100"
+                android:title="Size Type"
+                app:showAsAction="never" />
+            <item
+                android:icon="@drawable/font_1_30x30"
+                android:id="@+id/styleoftitleandnote"
+                android:orderInCategory="100"
+                android:title="Style Type"
+                app:showAsAction="never" />
+            <item
+                android:icon="@drawable/delete_1_30x30"
+                android:id="@+id/deletenote_menu"
+                android:orderInCategory="100"
+                android:title="Delete Note"
+                app:showAsAction="never" />
+            <item
+                android:icon="@drawable/info_30x30"
+                android:id="@+id/help"
+                android:orderInCategory="100"
+                android:title="Help"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+</menu>

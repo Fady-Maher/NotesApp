@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="10dp"
+    android:background="#8A03DAC5"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/image_item_view"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:visibility="visible"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_margin="5dp">
+            <TextView
+                android:id="@+id/title_item_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:hint="title"
+                />
+            <TextView
+                android:id="@+id/note_item_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:hint="note"
+                />
+            <TextView
+                android:id="@+id/time_item_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:hint="time"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

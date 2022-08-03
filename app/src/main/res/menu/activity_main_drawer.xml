@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/calendar"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/paper"
+            android:title="@string/menu_gallery" />
+
+    </group>
+
+    <item android:title="Mode">
+        <menu>
+            <item
+                android:icon="@drawable/dark"
+                android:id="@+id/dark"
+                android:title="Dark"
+                />
+            <item
+                android:icon="@drawable/moon"
+                android:id="@+id/light"
+                android:title="Light"
+                />
+        </menu>
+    </item>
+
+
+
+    <item android:title="Support">
+        <menu>
+            <item
+                android:icon="@drawable/phone"
+                android:id="@+id/call"
+                android:title="Call Me"
+                />
+            <item
+                android:icon="@drawable/call"
+                android:id="@+id/whatsapp"
+                android:title="WhatsApp"
+                />
+        </menu>
+    </item>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:icon="@drawable/logout"
+                android:id="@+id/logout"
+                android:title="Logout"
+                />
+            <item
+                android:icon="@drawable/logoutd"
+                android:id="@+id/logoutanddelete"
+                android:title="Delete and Logout "
+                />
+        </menu>
+    </item>
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:icon="@drawable/about"
+                android:id="@+id/about"
+                android:title="About"
+                />
+        </menu>
+    </item>
+
+</menu>
